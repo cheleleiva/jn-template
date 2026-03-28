@@ -25,5 +25,9 @@ if not include_scripts:
     print("Removed the scripts folder since you chose not to include it.")
 
 print("Post-gen-project hook completed.")
-print("Don't forget to update the README.md file with instructions on how to use the project.")
-print("cd into the project directory and run 'uv sync' to install the dependencies and set up the virtual environment")")
+print(
+    "Don't forget to update the README.md file with instructions on how to use the project."
+)
+print(
+    "cd into the project directory and run 'uv sync' to install the dependencies and set up the virtual environment"
+)
