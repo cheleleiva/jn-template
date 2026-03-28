@@ -24,11 +24,19 @@ Example run:
 
 ```bash
 uvx cookiecutter https://github.com/cheleleiva/jn-template.git
- [1/5] app_name (): Jupyter notebook demo
+  [1/5] app_name (): Jupyter notebook demo
   [2/5] description (): Demo of the template https://github.com/cheleleiva/jn-template.git
   [3/5] hyphenated (jupyter-notebook-demo):
   [4/5] underscored (jupyter-notebook-demo):
   [5/5] author_name (): Oscar Leiva
+  [6/7] Select include_data_dirs
+    1 - y
+    2 - n
+    Choose from [1/2] (1): 1
+  [7/7] Select include_scripts
+    1 - y
+    2 - n
+    Choose from [1/2] (1): 1
 ```
 
 It recommened to accept the suggested value for "hyphenated" and "underscored" by hitting enter on those prompts.
