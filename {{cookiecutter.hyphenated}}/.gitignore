@@ -221,7 +221,3 @@ __marimo__/
 *.csv
 *.log
 *.parquet
-
-# This repo should not git the Jupyter Notebooks
-*.ipynb
-*.txt

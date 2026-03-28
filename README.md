@@ -12,20 +12,20 @@ Regular `pip` will work OK too.
 
 ## Usage
 
-Run `cookiecutter gh:simonw/click-app` and then answer the prompts.
+Run `cookiecutter gh:cheleleiva/jn-template` and then answer the prompts.
 
 If running with [uv](https://docs.astral.sh/uv/):
 
 ```bash
-uvx cookiecutter https://github.com/cheleleiva/jn-tempate.git
+uvx cookiecutter https://github.com/cheleleiva/jn-template.git
 ```
 
 Example run:
 
 ```bash
-uvx cookiecutter https://github.com/cheleleiva/jn-tempate.git
+uvx cookiecutter https://github.com/cheleleiva/jn-template.git
  [1/5] app_name (): Jupyter notebook demo
-  [2/5] description (): Demo of the template https://github.com/cheleleiva/jn-tempate.git
+  [2/5] description (): Demo of the template https://github.com/cheleleiva/jn-template.git
   [3/5] hyphenated (jupyter-notebook-demo):
   [4/5] underscored (jupyter-notebook-demo):
   [5/5] author_name (): Oscar Leiva
