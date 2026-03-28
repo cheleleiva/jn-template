@@ -29,14 +29,12 @@ uvx cookiecutter https://github.com/cheleleiva/jn-template.git
   [3/5] hyphenated (jupyter-notebook-demo):
   [4/5] underscored (jupyter-notebook-demo):
   [5/5] author_name (): Oscar Leiva
-  [6/7] Select include_data_dirs
-    1 - y
-    2 - n
-    Choose from [1/2] (1): 1
-  [7/7] Select include_scripts
-    1 - y
-    2 - n
-    Choose from [1/2] (1): 1
+  [6/7] include_data_dirs [y/n] (y): y
+  [7/7] include_scripts [y/n] (y): y
+Running post-gen-project hook...
+Post-gen-project hook completed.
+Don't forget to update the README.md file with instructions on how to use the project.
+cd into the project directory and run 'uv sync' to install the dependencies and set up the virtual environment
 ```
 
 It recommened to accept the suggested value for "hyphenated" and "underscored" by hitting enter on those prompts.
