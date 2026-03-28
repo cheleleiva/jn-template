@@ -4,12 +4,6 @@
     "hyphenated": "{{ '-'.join(cookiecutter['app_name'].lower().split()).replace('_', '-') }}",
     "underscored": "{{ cookiecutter.hyphenated.replace('-', '_') }}",
     "author_name": "",
-    "include_data_dirs": [
-        "y",
-        "n"
-    ],
-    "include_scripts": [
-        "y",
-        "n"
-    ]
+    "include_data_dirs": true,
+    "include_scripts": true
 }
