@@ -1,6 +1,6 @@
 # Cookiecutter template for jupyter notebooks
 
-Coockiecutter template for creating new Jupyter Notbooks project.
+Coockiecutter template for creating new Jupyter Notebooks project.
 
 ## Installation
 
